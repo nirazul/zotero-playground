@@ -31,7 +31,7 @@ async function onStartup() {
 
   UIExampleFactory.registerItemPaneSection();
 
-  UIExampleFactory.registerReaderItemPaneSection();
+  await UIExampleFactory.registerReaderItemPaneSection();
 
   await Promise.all(
     Zotero.getMainWindows().map((win) => onMainWindowLoad(win)),

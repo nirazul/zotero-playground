@@ -21,8 +21,7 @@
     "build": "tsc --noEmit && zotero-plugin build",
     "lint": "prettier --write . && eslint . --fix",
     "release": "zotero-plugin release",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "update-deps": "npm update --save"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "zotero-plugin-toolkit": "^4.0.6"
